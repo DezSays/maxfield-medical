@@ -20,11 +20,7 @@ const DesktopNavigation = () => {
                         </NavLink>
                     </li>
                 ))}
-                <li>
-                    <NavLink className="navs__active" to="/privacy-policy">
-                        Privacy Policy
-                    </NavLink>
-                </li>
+               
             </ul>
         </nav>
     );
