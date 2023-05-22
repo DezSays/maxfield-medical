@@ -3,11 +3,17 @@ import { createRoot } from "react-dom/client";
 import App from "./app";
 import './styles/style.scss';
 
-const container = document.getElementById("root");
-const root = createRoot(container);
+const container: HTMLElement | null = document.getElementById("root");
+const root = container && createRoot(container);
 
-root.render(
+if (root) {
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );    
+} else {
   <React.StrictMode>
-    <App />
+    <div>WARNING: React cannot attach itself to the DOM.</div>
   </React.StrictMode>
-);
+}
