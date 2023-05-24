@@ -1,9 +1,9 @@
 import React from 'react'
 
-const insuranceBilling = () => {
+const InsuranceBilling = () => {
   return (
-    <div>insuranceBilling</div>
+    <div>Insurance Billing</div>
   )
 }
 
-export default insuranceBilling
+export default InsuranceBilling

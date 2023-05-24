@@ -1,9 +1,9 @@
 import React from 'react'
 
-const employerResources = () => {
+const EmployerResources = () => {
   return (
-    <div>employerResources</div>
+    <div>Employer Resources</div>
   )
 }
 
-export default employerResources
+export default EmployerResources
