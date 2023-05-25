@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ isMobileView }) => {
             </NavLink>
           </div>
           {isMobileView ? (
-            <FlyoutMenu handleMobileNav={handleMobileNav} isShowMobileNav={isShowMobileNav} />
+            <FlyoutMenu handleMobileNav={handleMobileNav} isShowMobileNav={true} />
           ) : (
             <DesktopNavigation />
           )}

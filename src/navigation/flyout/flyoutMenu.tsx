@@ -5,11 +5,12 @@ import './flyoutMenu.scss';
 
 interface FlyoutMenuProps {
   handleMobileNav: MouseEventHandler<HTMLAnchorElement>;
-  isShowMobileNav: boolean;
+  isShowMobileNav: Boolean;
 }
 
 const FlyoutMenu: React.FC<FlyoutMenuProps> = ({
   handleMobileNav,
+  isShowMobileNav,
 }: FlyoutMenuProps): JSX.Element => {
   const primaryNavs = navs.map((nav, index) => (
     <li key={`${nav.value.toLowerCase()}-${index}`}>
@@ -26,6 +27,7 @@ const FlyoutMenu: React.FC<FlyoutMenuProps> = ({
 
   return (
     <>
+      {isShowMobileNav && (
         <nav className="flyout-menu">
           <div className="flyout-menu__body">
             <ul className="nav__navs nav__navs--flyout-menu">
@@ -38,6 +40,8 @@ const FlyoutMenu: React.FC<FlyoutMenuProps> = ({
             <span>912-275-8495</span>
           </div>
         </nav>
+      )}
+
     </>
   );
 };
