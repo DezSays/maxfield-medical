@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import DesktopNavigation from '../navigation/desktop/desktop';
+// import DesktopNavigation from '../navigation/desktop/desktop';
 import AboutUs from './aboutUs/aboutUs';
 import ContactUs from './contactUs/contactUs';
 import EmployerResources from './employerResources/employerResources';
@@ -14,7 +14,7 @@ const View = (): JSX.Element => {
 
   return (
     <>
-    <DesktopNavigation />
+    {/* <DesktopNavigation /> */}
     <Routes>
       <Route path="/location" element={<Location />} />
       <Route path="/urgent-care-services" element={<UrgentCareServices />} />
