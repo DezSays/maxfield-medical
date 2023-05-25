@@ -8,6 +8,7 @@ import { HeaderProps } from '../../types/interface';
 
 const Header: React.FC<HeaderProps> = ({ isMobileView }) => {
   const [isShowMobileNav, setIsShowMobileNav] = useState(false);
+  console.log(isMobileView)
 
   const handleMobileNav: MouseEventHandler<HTMLAnchorElement | HTMLButtonElement> = () => {
     setIsShowMobileNav(!isShowMobileNav);
@@ -18,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ isMobileView }) => {
       <header className="border-lt">
         <div className={`y-wrap y-wrap--inner y-header-${isMobileView ? 'mobile' : 'desktop'}`}>
           <div className="nav__logo-container">
-            <NavLink className="navs__active" to="/">
+            <NavLink className="navs__active" to="/about-us">
               Logo
             </NavLink>
           </div>
