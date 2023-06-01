@@ -1,4 +1,4 @@
-import Routes from '../routes'
+import Routes from '../../routes'
 const Main = (): JSX.Element => (
   <main className="y-wrap">
     <Routes />
