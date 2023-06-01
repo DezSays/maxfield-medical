@@ -1,3 +1,3 @@
 export interface HeaderProps {
-    isMobileView: boolean;
+    isMobileView: Boolean;
   }
