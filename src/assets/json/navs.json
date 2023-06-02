@@ -1,236 +1,195 @@
 [
   {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/location",
-      "isActive": true,
-      "order": 1,
-      "value": "Location"
+    "activeClassName": "navs__active",
+    "exact": true,
+    "href": "/location",
+    "isActive": true,
+    "order": 1,
+    "value": "Location"
   },
   {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/urgent-care-services",
-      "isActive": true,
-      "order": 2,
-      "value": "Urgent Care Services"
+    "activeClassName": "navs__active",
+    "exact": true,
+    "href": "/urgent-care-services",
+    "isActive": true,
+    "order": 2,
+    "value": "Urgent Care Services",
+    "dropdownItems": [
+      {
+        "exact": true,
+        "href": "/services-offered",
+        "isActive": true,
+        "order": 1,
+        "value": "Services Offered"
+      },
+      {
+        "exact": true,
+        "href": "/flu-covid-rsv-testing",
+        "isActive": true,
+        "order": 2,
+        "value": "Flu/Covid/RSV Testing"
+      },
+      {
+        "exact": true,
+        "href": "/vaccines",
+        "isActive": true,
+        "order": 3,
+        "value": "Vaccines - Flu, Covid, Tetanus"
+      },
+      {
+        "exact": true,
+        "href": "/urgent-care-vs-er",
+        "isActive": true,
+        "order": 4,
+        "value": "Urgent Care vs ER"
+      },
+      {
+        "exact": true,
+        "href": "/school-sports-physicals",
+        "isActive": true,
+        "order": 5,
+        "value": "School Sports Physicals"
+      },
+      {
+        "exact": true,
+        "href": "/telemedicine",
+        "isActive": true,
+        "order": 6,
+        "value": "Telemedicine"
+      }
+    ]
   },
   {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/employer-resources",
-      "isActive": true,
-      "order": 3,
-      "value": "Employer Resources"
+    "activeClassName": "navs__active",
+    "exact": true,
+    "href": "/employer-resources",
+    "isActive": true,
+    "order": 3,
+    "value": "Employer Resources",
+    "dropdownItems": [
+      {
+        "exact": true,
+        "href": "/preemployment-physicals",
+        "isActive": true,
+        "order": 1,
+        "value": "Pre-employment Physicals"
+      },
+      {
+        "exact": true,
+        "href": "/dot-physicals",
+        "isActive": true,
+        "order": 2,
+        "value": "DOT Physicals"
+      },
+      {
+        "exact": true,
+        "href": "/drug-testing",
+        "isActive": true,
+        "order": 3,
+        "value": "Drug Testing"
+      },
+      {
+        "exact": true,
+        "href": "/workers-comp",
+        "isActive": true,
+        "order": 4,
+        "value": "Workers Comp"
+      }
+    ]
   },
   {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/insurance-billing",
-      "isActive": true,
-      "order": 4,
-      "value": "Insurance & Billing"
+    "activeClassName": "navs__active",
+    "exact": true,
+    "href": "/insurance-billing",
+    "isActive": true,
+    "order": 4,
+    "value": "Insurance & Billing",
+    "dropdownItems": [
+      {
+        "exact": true,
+        "href": "/pay-my-bill",
+        "isActive": true,
+        "order": 1,
+        "value": "Pay My Bill"
+      },
+      {
+        "exact": true,
+        "href": "/insurance-carriers",
+        "isActive": true,
+        "order": 2,
+        "value": "Insurance Carriers"
+      },
+      {
+        "exact": true,
+        "href": "/self-pay-pricing",
+        "isActive": true,
+        "order": 3,
+        "value": "Self-pay Pricing"
+      }
+    ]
   },
   {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/members",
-      "isActive": true,
-      "order": 5,
-      "value": "Members"
+    "activeClassName": "navs__active",
+    "exact": true,
+    "href": "/members",
+    "isActive": true,
+    "order": 5,
+    "value": "Members",
+    "dropdownItems": [
+      {
+        "exact": true,
+        "href": "/membership",
+        "isActive": true,
+        "order": 1,
+        "value": "Membership"
+      },
+      {
+        "exact": true,
+        "href": "/telemedicine",
+        "isActive": true,
+        "order": 2,
+        "value": "Telemedicine"
+      }
+    ]
   },
   {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/forms",
-      "isActive": true,
-      "order": 6,
-      "value": "Forms"
+    "activeClassName": "navs__active",
+    "exact": true,
+    "href": "/forms",
+    "isActive": true,
+    "order": 6,
+    "value": "Forms",
+    "dropdownItems": [
+      {
+        "exact": true,
+        "href": "/hippa",
+        "isActive": true,
+        "order": 1,
+        "value": "HIPPA"
+      },
+      {
+        "exact": true,
+        "href": "/patient-info",
+        "isActive": true,
+        "order": 2,
+        "value": "Patient Info"
+      }
+    ]
   },
   {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/about-us",
-      "isActive": true,
-      "order": 7,
-      "value": "About Us"
+    "activeClassName": "navs__active",
+    "exact": true,
+    "href": "/about-us",
+    "isActive": true,
+    "order": 7,
+    "value": "About Us"
   },
   {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/contact-us",
-      "isActive": true,
-      "order": 8,
-      "value": "Contact Us"
-  },
-  {
-      "path": "/flu-covid-rsv-testing",
-      "element": "<FluCovidRSVTesting />",
-      "isActive": false,
-      "order": 9,
-      "value": "Flu, COVID, RSV Testing",
-      "href": "/flu-covid-rsv-testing",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/school-sports-physicals",
-      "element": "<SchoolSportsPhysicals />",
-      "isActive": false,
-      "order": 10,
-      "value": "School Sports Physicals",
-      "href": "/school-sports-physicals",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/services-offered",
-      "element": "<ServicesOffered />",
-      "isActive": false,
-      "order": 11,
-      "value": "Services Offered",
-      "href": "/services-offered",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/telemedicine",
-      "element": "<Telemedicine />",
-      "isActive": false,
-      "order": 12,
-      "value": "Telemedicine",
-      "href": "/telemedicine",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/urgent-care-vs-er",
-      "element": "<UrgentCareVsER />",
-      "isActive": false,
-      "order": 13,
-      "value": "Urgent Care vs ER",
-      "href": "/urgent-care-vs-er",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/vaccines",
-      "element": "<Vaccines />",
-      "isActive": false,
-      "order": 14,
-      "value": "Vaccines",
-      "href": "/vaccines",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/membership",
-      "element": "<Membership />",
-      "isActive": false,
-      "order": 15,
-      "value": "Membership",
-      "href": "/membership",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/insurance-carriers",
-      "element": "<InsuranceCarriers />",
-      "isActive": false,
-      "order": 16,
-      "value": "Insurance Carriers",
-      "href": "/insurance-carriers",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/pay-my-bill",
-      "element": "<PayMyBill />",
-      "isActive": false,
-      "order": 17,
-      "value": "Pay My Bill",
-      "href": "/pay-my-bill",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/self-pay-pricing",
-      "element": "<SelfPayPricing />",
-      "isActive": false,
-      "order": 18,
-      "value": "Self-Pay Pricing",
-      "href": "/self-pay-pricing",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/hippa",
-      "element": "<Hippa />",
-      "isActive": false,
-      "order": 19,
-      "value": "HIPPA",
-      "href": "/hippa",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/patient-info",
-      "element": "<PatientInfo />",
-      "isActive": false,
-      "order": 20,
-      "value": "Patient Information",
-      "href": "/patient-info",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/dot-physicals",
-      "element": "<DotPhysicals />",
-      "isActive": false,
-      "order": 21,
-      "value": "DOT Physicals",
-      "href": "/dot-physicals",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/drug-testing",
-      "element": "<DrugTesting />",
-      "isActive": false,
-      "order": 22,
-      "value": "Drug Testing",
-      "href": "/drug-testing",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/preemployment-physicals",
-      "element": "<PreemploymentPhysicals />",
-      "isActive": false,
-      "order": 23,
-      "value": "Preemployment Physicals",
-      "href": "/preemployment-physicals",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "/workers-comp",
-      "element": "<WorkersComp />",
-      "isActive": false,
-      "order": 24,
-      "value": "Workers Comp",
-      "href": "/workers-comp",
-      "exact": true,
-      "activeClassName": ""
-  },
-  {
-      "path": "*",
-      "element": "<Error />",
-      "isActive": false,
-      "order": 25,
-      "value": "Error",
-      "href": "",
-      "exact": false,
-      "activeClassName": ""
+    "activeClassName": "navs__active",
+    "exact": true,
+    "href": "/contact-us",
+    "isActive": true,
+    "order": 8,
+    "value": "Contact Us"
   }
 ]
