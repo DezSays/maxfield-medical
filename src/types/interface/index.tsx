@@ -4,7 +4,7 @@ export interface HeaderProps {
 
   export interface SVGImageProps {
     className?: string;
-    href: string;
+    href?: string;
     type: string;
   }
   

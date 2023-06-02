@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ isMobileView }) => {
 
   return (
     <>
-      <header className="border-lt">
+      <header>
         <div className={`y-wrap y-wrap--inner y-header-${isMobileView ? 'mobile' : 'desktop'}`}>
           <div className="nav__logo-container">
             <SVGImage className="svg-icon svg-icon__logo" href="/" type={LOGO} />

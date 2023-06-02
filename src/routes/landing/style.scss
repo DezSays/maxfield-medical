@@ -1,0 +1,16 @@
+.svg-icon {
+  &.svg-icon__banner {
+    
+    height: 460px;
+    left: -10%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 120%;
+    z-index: -1;
+    
+    img {
+      margin: -12% 0 0 0;
+    }
+  }
+}
