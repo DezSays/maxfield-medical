@@ -2,9 +2,16 @@ header {
     margin: 0 0 66px 0;
     padding: 17px 0 25px;
     width: 100%;
-  
-    &.border-lt {
-      border-bottom: 1px solid #ffffff;
-    }
   }
   
+  .y-header-desktop {
+    display: flex;
+    align-items: center;
+  }
+
+  .svg-icon {
+    &.svg-icon__logo {
+      display: block;
+      width: 100px;
+    }
+  }
