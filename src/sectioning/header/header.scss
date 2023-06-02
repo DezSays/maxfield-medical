@@ -8,3 +8,14 @@ header {
     }
   }
   
+  .y-header-desktop {
+    display: flex;
+    align-items: center;
+  }
+
+  .svg-icon {
+    &.svg-icon__logo {
+      display: block;
+      width: 100px;
+    }
+  }

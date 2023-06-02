@@ -1,6 +1,7 @@
 import React, { MouseEventHandler, useState } from 'react';
 import DesktopNavigation from "../../navigation/desktop/desktop";
 import FlyoutMenu from "../../navigation/flyout/flyoutMenu";
+import SVGImage, { LOGO } from "../../components/svg";
 import { NavLink } from "react-router-dom";
 import './header.scss';
 import { HeaderProps } from '../../types/interface';
@@ -19,9 +20,7 @@ const Header: React.FC<HeaderProps> = ({ isMobileView }) => {
       <header className="border-lt">
         <div className={`y-wrap y-wrap--inner y-header-${isMobileView ? 'mobile' : 'desktop'}`}>
           <div className="nav__logo-container">
-            <NavLink className="navs__active" to="/about-us">
-              Logo
-            </NavLink>
+            <SVGImage className="svg-icon svg-icon__logo" href="/" type={LOGO} />
           </div>
           {isMobileView ? (
             <FlyoutMenu handleMobileNav={handleMobileNav} isShowMobileNav={true} />
