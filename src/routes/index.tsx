@@ -4,6 +4,7 @@ import ContactUs from './contactUs/contactUs';
 import EmployerResources from './employerResources/employerResources';
 import Forms from './forms/forms';
 import InsuranceBilling from './insuranceBilling/insuranceBilling';
+import Landing from './landing';
 import Location from './location/location';
 import Members from './members/members';
 import UrgentCareServices from './urgentCareServices/urgentCareServices';
@@ -30,6 +31,7 @@ const View = (): JSX.Element => {
   return (
     <>
     <Routes>
+      <Route path="/" element={<Landing />} />
       <Route path="/location" element={<Location />} />
       <Route path="/urgent-care-services" element={<UrgentCareServices />} />
       <Route path="/employer-resources" element={<EmployerResources />} />

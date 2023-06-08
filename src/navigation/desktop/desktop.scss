@@ -1,0 +1,14 @@
+.nav {
+  &.nav--header {
+    width: 100%;
+  }
+
+  .nav__navs {
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      margin-left: 20px;
+    }
+  }
+}
