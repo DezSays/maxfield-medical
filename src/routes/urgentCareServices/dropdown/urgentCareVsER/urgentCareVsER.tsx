@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const UrgentCareVsER = () => {
+const UrgentCareVsER: React.FC = () => {
   return (
-    <div>Urgent Care vs ER</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      Urgent Care vs ER
+    </div>
+  );
+};
 
-export default UrgentCareVsER
+export default UrgentCareVsER;

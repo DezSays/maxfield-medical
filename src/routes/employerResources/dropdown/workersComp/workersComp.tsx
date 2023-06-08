@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const WorkersComp = () => {
+const WorkersComp: React.FC = () => {
   return (
-    <div>Workers Comp</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {' > '}
+      Workers Comp
+    </div>
+  );
+};
 
-export default WorkersComp
+export default WorkersComp;

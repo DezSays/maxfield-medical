@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Vaccines = () => {
+const Vaccines: React.FC = () => {
   return (
-    <div>Vaccines - Flu, Covid, Tetanus</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      Vaccines - Flu, Covid, Tetanus
+    </div>
+  );
+};
 
-export default Vaccines
+export default Vaccines;

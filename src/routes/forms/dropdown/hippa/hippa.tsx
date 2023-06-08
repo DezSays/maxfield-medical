@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Hippa = () => {
+const Hippa: React.FC = () => {
   return (
-    <div>HIPPA</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      Hippa
+    </div>
+  );
+};
 
-export default Hippa
+export default Hippa;

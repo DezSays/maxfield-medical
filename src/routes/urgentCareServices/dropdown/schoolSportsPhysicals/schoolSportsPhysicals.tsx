@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const SchoolSportsPhysicals = () => {
+const SchoolSportsPhysicals: React.FC = () => {
   return (
-    <div>School Sports Physicals</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      School Sports Physicals
+    </div>
+  );
+};
 
-export default SchoolSportsPhysicals
+export default SchoolSportsPhysicals;

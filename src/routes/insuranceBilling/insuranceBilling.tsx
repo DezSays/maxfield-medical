@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const InsuranceBilling = () => {
+const InsuranceBilling: React.FC = () => {
   return (
-    <div>Insurance Billing</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      Insurance Billing
+    </div>
+  );
+};
 
-export default InsuranceBilling
+export default InsuranceBilling;

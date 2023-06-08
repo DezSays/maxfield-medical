@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Location = () => {
+const Location: React.FC = () => {
   return (
-    <div>Location</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      Location
+    </div>
+  );
+};
 
-export default Location
+export default Location;

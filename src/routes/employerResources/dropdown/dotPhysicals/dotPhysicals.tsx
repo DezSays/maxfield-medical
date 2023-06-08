@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const DotPhysicals = () => {
+const DotPhysicals: React.FC = () => {
   return (
-    <div>DOT Physicals</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {' > '}
+      DOT Physicals
+    </div>
+  );
+};
 
-export default DotPhysicals
+export default DotPhysicals;

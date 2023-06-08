@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const SelfPayPricing = () => {
+const SelfPayPricing: React.FC = () => {
   return (
-    <div>Self-Pay Pricing</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      Self-Pay Pricing
+    </div>
+  );
+};
 
-export default SelfPayPricing
+export default SelfPayPricing;

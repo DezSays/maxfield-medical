@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const FluCovidRSVTesting = () => {
+const FluCovidRSVTesting: React.FC = () => {
   return (
-    <div>Flu/Covid/RSV Testing</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      Flu/Covid/RSV Testing
+    </div>
+  );
+};
 
-export default FluCovidRSVTesting
+export default FluCovidRSVTesting;
