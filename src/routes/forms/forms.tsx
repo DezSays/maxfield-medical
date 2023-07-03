@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Forms = () => {
+const Forms: React.FC = () => {
   return (
-    <div>Forms</div>
-  )
-}
+    <div>
+      <a href="/">Maxfield Medical</a>
+      {" > "}
+      Forms
+    </div>
+  );
+};
 
-export default Forms
+export default Forms;

@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const AboutUs = () => {
+const AboutUs: React.FC = () => {
   return (
-    <div>About Us</div>
-  )
-}
+    <div>
+      <a href='/'>Maxfield Medical</a> 
+      {" > "}
+      About Us
+    </div>
+  );
+};
 
-export default AboutUs
+export default AboutUs;

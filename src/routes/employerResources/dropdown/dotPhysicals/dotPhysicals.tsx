@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Members: React.FC = () => {
+const DotPhysicals: React.FC = () => {
   return (
     <div>
       <a href="/">Maxfield Medical</a>
-      {" > "}
-      Members
+      {' > '}
+      DOT Physicals
     </div>
   );
 };
 
-export default Members;
+export default DotPhysicals;

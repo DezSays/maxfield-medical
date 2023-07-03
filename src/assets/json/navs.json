@@ -1,67 +1,212 @@
 [
-    {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/location",
-      "isActive": true,
-      "order": 1,
-      "value": "Location"
-    },
-    {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/urgent-care-services",
-      "isActive": true,
-      "order": 2,
-      "value": "Urgent Care Services"
-    },
-    {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/employer-resources",
-      "isActive": true,
-      "order": 3,
-      "value": "Employer Resources"
-    },
-    {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/insurance-billing",
-      "isActive": true,
-      "order": 4,
-      "value": "Insurance & Billing"
-    },
-    {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/members",
-      "isActive": true,
-      "order": 5,
-      "value": "Members"
-    },
-    {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/forms",
-      "isActive": true,
-      "order": 6,
-      "value": "Forms"
-    },
-    {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/about-us",
-      "isActive": true,
-      "order": 7,
-      "value": "About Us"
-    },
-    {
-      "activeClassName": "navs__active",
-      "exact": true,
-      "href": "/contact-us",
-      "isActive": true,
-      "order": 8,
-      "value": "Contact Us"
-    }
-  ]
-  
+  {
+    "activeClassName": "nav__item--active",
+    "exact": true,
+    "href": "/location",
+    "isActive": true,
+    "order": 7,
+    "value": "Location"
+  },
+  {
+    "activeClassName": "nav__item--active",
+    "exact": true,
+    "href": "/urgent-care-services",
+    "isActive": true,
+    "order": 2,
+    "value": "Urgent Care Services",
+    "dropdownItems": [
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/urgent-care-services/services-offered",
+        "isActive": true,
+        "order": 0,
+        "value": "Services Offered"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/urgent-care-services/flu-covid-rsv-testing",
+        "isActive": true,
+        "order": 1,
+        "value": "Flu/Covid/RSV Testing"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/urgent-care-services/vaccines",
+        "isActive": true,
+        "order": 2,
+        "value": "Vaccines – Flu, Covid, Tetanus"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/urgent-care-services/urgent-care-vs-er",
+        "isActive": true,
+        "order": 3,
+        "value": "Urgent Care vs ER"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/urgent-care-services/school-sports-physicals",
+        "isActive": true,
+        "order": 4,
+        "value": "School Sports Physicals"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/urgent-care-services/telemedicine",
+        "isActive": true,
+        "order": 5,
+        "value": "Telemedicine"
+      }
+    ]
+  },
+  {
+    "activeClassName": "nav__item--active",
+    "exact": true,
+    "href": "/employer-resources",
+    "isActive": true,
+    "order": 3,
+    "value": "Employer Resources",
+    "dropdownItems": [
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/employer-resources/pre-employment-physicals",
+        "isActive": true,
+        "order": 0,
+        "value": "Pre-employment Physicals"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/employer-resources/dot-physicals",
+        "isActive": true,
+        "order": 1,
+        "value": "DOT Physicals"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/employer-resources/drug-testing",
+        "isActive": true,
+        "order": 2,
+        "value": "Drug Testing"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/employer-resources/workers-comp",
+        "isActive": true,
+        "order": 3,
+        "value": "Workers Comp"
+      }
+    ]
+  },
+  {
+    "activeClassName": "nav__item--active",
+    "exact": true,
+    "href": "/insurance-billing",
+    "isActive": true,
+    "order": 4,
+    "value": "Insurance & Billing",
+    "dropdownItems": [
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/insurance-billing/pay-my-bill",
+        "isActive": true,
+        "order": 0,
+        "value": "Pay My Bill"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/insurance-billing/insurance-carriers",
+        "isActive": true,
+        "order": 1,
+        "value": "Insurance Carriers"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/insurance-billing/self-pay-pricing",
+        "isActive": true,
+        "order": 2,
+        "value": "Self-pay Pricing"
+      }
+    ]
+  },
+  {
+    "activeClassName": "nav__item--active",
+    "exact": true,
+    "href": "/members",
+    "isActive": true,
+    "order": 5,
+    "value": "Members",
+    "dropdownItems": [
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/members/membership",
+        "isActive": true,
+        "order": 0,
+        "value": "Membership"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/members/telemedicine",
+        "isActive": true,
+        "order": 1,
+        "value": "Telemedicine"
+      }
+    ]
+  },
+  {
+    "activeClassName": "nav__item--active",
+    "exact": true,
+    "href": "/forms",
+    "isActive": true,
+    "order": 6,
+    "value": "Forms",
+    "dropdownItems": [
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/forms/hippa",
+        "isActive": true,
+        "order": 0,
+        "value": "HIPPA"
+      },
+      {
+        "activeClassName": "nav__item--active",
+        "exact": true,
+        "href": "/forms/patient-info",
+        "isActive": true,
+        "order": 1,
+        "value": "Patient Info"
+      }
+    ]
+  },
+  {
+    "activeClassName": "nav__item--active",
+    "exact": true,
+    "href": "/about-us",
+    "isActive": true,
+    "order": 8,
+    "value": "About Us"
+  },
+  {
+    "activeClassName": "nav__item--active",
+    "exact": true,
+    "href": "/contact-us",
+    "isActive": true,
+    "order": 9,
+    "value": "Contact Us"
+  }
+]

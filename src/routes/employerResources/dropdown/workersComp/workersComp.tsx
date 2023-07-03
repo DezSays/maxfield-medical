@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Members: React.FC = () => {
+const WorkersComp: React.FC = () => {
   return (
     <div>
       <a href="/">Maxfield Medical</a>
-      {" > "}
-      Members
+      {' > '}
+      Workers Comp
     </div>
   );
 };
 
-export default Members;
+export default WorkersComp;

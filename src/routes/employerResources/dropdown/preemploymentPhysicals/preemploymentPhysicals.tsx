@@ -1,13 +1,13 @@
 import React from 'react';
 
-const EmployerResources: React.FC = () => {
+const PreemploymentPhysicals: React.FC = () => {
   return (
     <div>
       <a href="/">Maxfield Medical</a>
       {' > '}
-      Employer Resources
+      Pre-employment Physicals
     </div>
   );
 };
 
-export default EmployerResources;
+export default PreemploymentPhysicals;
