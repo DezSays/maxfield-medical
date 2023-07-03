@@ -1,0 +1,26 @@
+[
+  {
+    "cta": "Samantha Jones",
+    "icon": "heartbeat",
+    "text": "Knowing that I can stop in on short notice and not be charged unrealistic fees has been perfect for me and my family. This is so much better than the unknown of the ER at 2:00 AM.",
+    "title": "Perfect for me and my family"
+  },
+  {
+    "cta": "Learn More",
+    "icon": "ambulance",
+    "text": "Pay only $59 per head of household per month and then only $20 per visit thereafter.",
+    "title": "Start a Subscription for only $59"
+  },
+  {
+    "cta": "Learn More",
+    "icon": "doctor",
+    "text": "Head-of-households can add additional family members for just $49 per month per person. Visits are $20 per thereafter.",
+    "title": "Add additional family members for just $49"
+  },
+  {
+    "cta": "Sign Up",
+    "icon": "Calendar",
+    "text": "For a limited time, new sign-ups qualify to save 10% per month for the first three months.",
+    "title": "Save 10% by signing up today."
+  }
+]

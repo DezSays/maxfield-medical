@@ -1,3 +1,10 @@
+export interface CardProps {
+  cta: string;
+  icon: string;
+  text: string;
+  title: string;
+}
+
 export interface HeaderProps {
     isMobileView: boolean;
   }
