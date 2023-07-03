@@ -2,6 +2,7 @@ import { MouseEventHandler, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import navs from '../../assets/json/navs.json';
 import './flyoutMenu.scss';
+import { GiHamburgerMenu } from "react-icons/gi"
 
 interface FlyoutMenuProps {
   handleMobileNav: MouseEventHandler<HTMLAnchorElement>;
@@ -20,6 +21,7 @@ const FlyoutMenu: React.FC<FlyoutMenuProps> = ({
   isShowMobileNav,
 }: FlyoutMenuProps): JSX.Element => {
   const [expandedNavs, setExpandedNavs] = useState<string[]>([]);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
 
   const handleNavClick = (navValue: string) => {
     if (expandedNavs.includes(navValue)) {
@@ -27,6 +29,13 @@ const FlyoutMenu: React.FC<FlyoutMenuProps> = ({
     } else {
       setExpandedNavs((prevState) => [...prevState, navValue]);
     }
+  };
+
+  const handleCloseMenu = () => {
+    setIsMenuOpen(false);
+  };
+  const handleOpenMenu = () => {
+    setIsMenuOpen(true);
   };
 
   const renderNav = (nav: NavItem): JSX.Element => {
@@ -71,8 +80,11 @@ const FlyoutMenu: React.FC<FlyoutMenuProps> = ({
 
   return (
     <>
-      {isShowMobileNav && (
+      {isShowMobileNav && isMenuOpen && (
         <nav className="flyout-menu">
+          <div className="flyout-menu__close" onClick={handleCloseMenu}>
+            X
+          </div>
           <div className="flyout-menu__body">
             <ul className="nav__navs nav__navs--flyout-menu">{renderedNavs}</ul>
           </div>
@@ -81,6 +93,12 @@ const FlyoutMenu: React.FC<FlyoutMenuProps> = ({
             <span>Brunswick, GA 31525</span>
             <span>912-275-8495</span>
           </div>
+        </nav>
+      )}
+
+      {isShowMobileNav && isMenuOpen === false && (
+        <nav>
+          <GiHamburgerMenu onClick={handleOpenMenu} />
         </nav>
       )}
     </>
