@@ -5,10 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "npm run clean && webpack --mode production",
     "clean": "rimraf build",
-    "dev": "webpack serve --mode development",
-    "start": "npm run start",
+    "start": "webpack serve --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
